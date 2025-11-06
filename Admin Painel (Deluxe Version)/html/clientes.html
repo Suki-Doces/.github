@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clientes</title>
+    <link rel="stylesheet" href="../css/sidebar.css">
+    <link rel="stylesheet" href="../css/cliente.css">
+    <link rel="stylesheet" href="../css/pedidos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0"/>
+</head>
+<body>
+    <aside class="sidebar">
+        <!--Side bar Header-->
+        <header class="sidebar-header">
+            <a href="#" class="header-logo">
+                <img src="../assets/icon/Logo Suki.svg" alt="Logo Suki">
+            </a>
+            <button class="toggler sidebar-toggler">
+                <span class="material-symbols-rounded">
+                    chevron_left
+                </span>
+            </button>
+            <button class="toggler menu-toggler">
+                <span class="material-symbols-rounded">
+                    menu
+                </span>
+            </button>
+        </header>
+
+        <nav class="sidebar-nav">
+            <!--Primary Top Nav-->
+            <ul class="nav-list primary-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">
+                        <span class="nav-icon material-symbols-rounded">
+                            dashboard
+                        </span>
+                        <span class="nav-label">Painel</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="pedidos.html" class="nav-link">
+                        <span class="nav-icon material-symbols-rounded">
+                            calendar_today
+                        </span>
+                        <span class="nav-label">Pedidos</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="../html/notificacoes.html" class="nav-link">
+                        <span class="nav-icon material-symbols-rounded">
+                            notifications
+                        </span>
+                        <span class="nav-label">Notificações</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="nav-icon material-symbols-rounded">
+                            group
+                        </span>
+                        <span class="nav-label">Clientes</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="produtos.html" class="nav-link">
+                        <span class="nav-icon material-symbols-rounded">
+                            analytics
+                        </span>
+                        <span class="nav-label">Produtos</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="estoque.html" class="nav-link">
+                        <span class="nav-icon material-symbols-rounded">
+                            star
+                        </span>
+                        <span class="nav-label">Estoque</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="configuracoes.html" class="nav-link">
+                        <span class="nav-icon material-symbols-rounded">
+                            settings
+                        </span>
+                        <span class="nav-label">Configurações</span>
+                    </a>
+                </li>
+            </ul>
+            
+            <!--Secondary Bottom Nav-->
+            <ul class="nav-list secondary-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="nav-icon material-symbols-rounded">
+                            account_circle
+                        </span>
+                        <span class="nav-label">Perfil</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="conta.html" class="nav-link">
+                        <span class="nav-icon material-symbols-rounded">
+                            logout
+                        </span>
+                        <span class="nav-label">Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+    
+    <main class="main-content">
+        <div id="content-clients" class="content">
+            <h1>Clientes</h1>
+            <p>Gerencie seus Usuários aqui.</p>
+        </div>
+        <section class="section-vendas">
+        <div class="painel-vendas">
+            <div class="dash-vendas padding-20-set">
+            <div>
+            <div class="revenue">
+                <b class="revenue-title">Clientes Totais</b>
+                <img class="dots-icons" src="../assets/img/icon/Dots - Icon.svg" alt="Icone de Pontos">
+            </div>
+            <div class="vendas-text">
+                <p>Últimos 7 dias</p>
+            </div>
+            </div>
+            <div>
+            <div class="revenue-value">
+                <b class="revenue-text">2,040</b>
+            <div class="frame-wrapper">
+                <div class="increase-value">
+                    <img class="porcentagem-de-incremento" src="../assets/img/icon/Increases Symbol - Icon.svg" alt="Icone de Aumento">
+                </div>
+            </div>
+            <b class="increase-text">+14.4%</b>
+            </div>
+            <div class="previous-days">
+                <span>Valores Semana Passada</span>
+                <b class="blue-value">(R$ 1870)</b>
+            </div>
+            </div>
+            </div>
+  
+            <div class="dash-pedidos padding-20-set">
+            <div>
+            <div class="revenue">
+                <b class="revenue-title">Novos Clientes</b>
+                <img class="dots-icons" src="../assets/img/icon/Dots - Icon.svg" alt="Icone de Pontos">
+            </div>
+            <div class="pedidos-text">
+                <p>Últimos 7 dias</p>
+            </div>
+            </div>
+            <div>
+            <div class="revenue-value">
+                <b class="revenue-text">144</b>
+            <div class="frame-wrapper">
+                <div class="increase-value">
+                    <img class="porcentagem-de-incremento" src="../assets/img/icon/Increases Symbol - Icon.svg" alt="Icone de Aumento">
+                </div>
+            </div>
+                <b class="increase-text">+14.4%</b>
+            </div>
+            <div class="previous-days">
+                <span>Valores Semana Passada</span>
+                <b class="blue-value">(R$ 140)</b>
+            </div>
+            </div>
+            </div>
+  
+            <div class="dash-pendentes padding-20-set">
+            <div>
+            <div class="revenue">
+                <b class="revenue-title">Visitantes</b>
+                <img class="dots-icons" src="../assets/img/icon/Dots - Icon.svg" alt="Icone de Pontos">
+            </div>
+            <div class="pedidos-text">
+                <p>Últimos 7 dias</p>
+            </div>
+            </div>
+            <div>
+            <div class="revenue-value">
+                <b class="revenue-text">5K</b>
+            <div class="frame-wrapper">
+                <div class="increase-value">
+                    <img class="porcentagem-de-incremento" src="../assets/img/icon/Increases Symbol - Icon.svg" alt="Icone de Aumento">
+                </div>
+            </div>
+                <b class="increase-text">+21.7%</b>
+            </div>
+            <div class="previous-days">
+                <span>Valores Semana Passada</span>
+                <b class="blue-value">(R$ 4420)</b>
+            </div>
+            </div>
+            </div>
+        </div>
+        </section>
+        <div class="container">
+        <div class="tbl_container">
+            <div class="header-container">
+
+                <button class="btn-new">
+                    <img src="./plus.svg" alt="">
+                    Adicionar Novo Cliente
+                </button>
+            </div>
+            <table class="tbl">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Telefone</th>
+                        <th>Email</th>
+                        <th>Valor Total</th>
+                        <th>Status</th>
+                        <th colspan="2">Ação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-Lable="ID">#0001</td>
+                        <td data-Lable="Nome">João Pedro</td>
+                        <td data-Lable="Telefone">(11) 97965-2943</td>
+                        <td data-Lable="Email">joaopedro@gmail.com</td>
+                        <td data-Lable="Valor">450.00</td>
+                        <td data-Lable="Status">
+                            <img src="../assets/img/icon/green ball.svg" alt="">
+                            Ativo
+                        </td>
+                        <td data-Lable="Editar" >
+                            <button class="btn-edit"><img src="../assets/img/icon/editar - icon.svg" alt=""></button>
+                        </td>
+                        <td data-Lable="Deletar">
+                            <button class="btn-trash"><img src="../assets/img/icon/trash-icon.svg" alt=""></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td data-Lable="ID">#0002</td>
+                        <td data-Lable="Nome">Douglas Luiz</td>
+                        <td data-Lable="Telefone">(13) 98489-8175</td>
+                        <td data-Lable="Email">DouglasLuiz12@gmail.com</td>
+                        <td data-Lable="Valor">330.00</td>
+                        <td data-Lable="Status">
+                            <img src="../assets/img/icon/green ball.svg" alt="">
+                            Ativo
+                        </td>
+                        <td data-Lable="Editar">
+                            <button class="btn-edit"><img src="../assets/img/icon/editar - icon.svg" alt=""></button>
+                        </td>
+                        <td data-Lable="Deletar">
+                            <button class="btn-trash"><img src="../assets/img/icon/trash-icon.svg" alt=""></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td data-Lable="ID">#0003</td>
+                        <td data-Lable="Nome">Carlos Miguel</td>
+                        <td data-Lable="Telefone">(11) 99466-5272</td>
+                        <td data-Lable="Email">CaseMiguel92@gamil.com</td>
+                        <td data-Lable="Valor">450.00</td>
+                        <td data-Lable="Status">
+                            <img src="../assets/img/icon/green ball.svg" alt="">
+                            Ativo
+                        </td>
+                        <td data-Lable="Editar">
+                            <button class="btn-edit"><img src="../assets/img/icon/editar - icon.svg" alt=""></button>
+                        </td>
+                        <td data-Lable="Deletar">
+                            <button class="btn-trash"><img src="../assets/img/icon/trash-icon.svg" alt=""></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td data-Lable="ID">#0004</td>
+                        <td data-Lable="Nome">Bruno Zago</td>
+                        <td data-Lable="Telefone">(11) 98014-6562</td>
+                        <td data-Lable="Email">BrunoPNZago@gmail.com</td>
+                        <td data-Lable="Valor">255,50</td>
+                        <td data-Lable="Status">
+                            <img src="../assets/img/icon/green ball.svg" alt="">
+                            Ativo
+                        </td>
+                        <td data-Lable="Editar">
+                            <button class="btn-edit"><img src="../assets/img/icon/editar - icon.svg" alt=""></button>
+                        </td>
+                        <td data-Lable="Deletar">
+                            <button class="btn-trash"><img src="../assets/img/icon/trash-icon.svg" alt=""></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td data-Lable="ID">#0005</td>
+                        <td data-Lable="Nome">Daniel Lopes</td>
+                        <td data-Lable="Telefone">(11) 97626-4608</td>
+                        <td data-Lable="Email">DanielGilLopes@gmail.com</td>
+                        <td data-Lable="Valor">250.00</td>
+                        <td data-Lable="Status">
+                            <img src="../assets/img/icon/red ball.svg" alt="">
+                            Inativo
+                        </td>
+                        <td data-Lable="Editar">
+                            <button class="btn-edit"><img src="../assets/img/icon/editar - icon.svg" alt=""></button>
+                        </td>
+                        <td data-Lable="Deletar">
+                            <button class="btn-trash"><img src="../assets/img/icon/trash-icon.svg" alt=""></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td data-Lable="ID">#0006</td>
+                        <td data-Lable="Nome">Alex Russo</td>
+                        <td data-Lable="Telefone">(15) 96948-8841</td>
+                        <td data-Lable="Email">AlexGomes@gmail.com</td>
+                        <td data-Lable="Valor">110.00</td>
+                        <td data-Lable="Status">
+                            <img src="../assets/img/icon/green ball.svg" alt="">
+                            Ativo
+                        </td>
+                        <td data-Lable="Editar">
+                            <button class="btn-edit"><img src="../assets/img/icon/editar - icon.svg" alt=""></button>
+                        </td>
+                        <td data-Lable="Deletar">
+                            <button class="btn-trash"><img src="../assets/img/icon/trash-icon.svg" alt=""></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td data-Lable="ID">#0007</td>
+                        <td data-Lable="Nome">Eduardo Saverin</td>
+                        <td data-Lable="Telefone">(14) 98613-3211</td>
+                        <td data-Lable="Email">EduardoSaverin@gmail.com</td>
+                        <td data-Lable="Valor">122.00</td>
+                        <td data-Lable="Status">
+                            <img src="../assets/img/icon/red ball.svg" alt="">
+                            Inativo
+                        </td>
+                        <td data-Lable="Editar">
+                            <button class="btn-edit"><img src="../assets/img/icon/editar - icon.svg" alt=""></button>
+                        </td>
+                        <td data-Lable="Deletar">
+                            <button class="btn-trash"><img src="../assets/img/icon/trash-icon.svg" alt=""></button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        </div>
+    </main>
+    <script src="../js/script.js"></script>
+</body>
+</html>

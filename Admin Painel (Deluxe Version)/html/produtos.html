@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0"/>
+    <link rel="stylesheet" href="../css/sidebar.css">
+    <link rel="stylesheet" href="../css/add-produto.css">
+    <link rel="stylesheet" href="../css/cupom.css">
+    <title>Adicionar Produto</title>
+
+</head>
+<body>
+    <aside class="sidebar">
+        <!--Side bar Header-->
+        <header class="sidebar-header">
+            <a href="#" class="header-logo">
+                <img src="../assets/icon/Logo Suki.svg" alt="Logo Suki">
+            </a>
+            <button class="toggler sidebar-toggler">
+                <span class="material-symbols-rounded">
+                    chevron_left
+                </span>
+            </button>
+            <button class="toggler menu-toggler">
+                <span class="material-symbols-rounded">
+                    menu
+                </span>
+            </button>
+        </header>
+
+        <nav class="sidebar-nav">
+            <!--Primary Top Nav-->
+            <ul class="nav-list primary-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">
+                        <span class="nav-icon material-symbols-rounded">
+                            dashboard
+                        </span>
+                        <span class="nav-label">Painel</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="pedidos.html" class="nav-link">
+                        <span class="nav-icon material-symbols-rounded">
+                            calendar_today
+                        </span>
+                        <span class="nav-label">Pedidos</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="./notificacoes.html" class="nav-link">
+                        <span class="nav-icon material-symbols-rounded">
+                            notifications
+                        </span>
+                        <span class="nav-label">Notificações</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="./clientes.html" class="nav-link">
+                        <span class="nav-icon material-symbols-rounded">
+                            group
+                        </span>
+                        <span class="nav-label">Clientes</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="produtos.html" class="nav-link">
+                        <span class="nav-icon material-symbols-rounded">
+                            analytics
+                        </span>
+                        <span class="nav-label">Produtos</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="estoque.html" class="nav-link">
+                        <span class="nav-icon material-symbols-rounded">
+                            star
+                        </span>
+                        <span class="nav-label">Estoque</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="configuracoes.html" class="nav-link">
+                        <span class="nav-icon material-symbols-rounded">
+                            settings
+                        </span>
+                        <span class="nav-label">Configurações</span>
+                    </a>
+                </li>
+            </ul>
+            
+            <!--Secondary Bottom Nav-->
+            <ul class="nav-list secondary-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="nav-icon material-symbols-rounded">
+                            account_circle
+                        </span>
+                        <span class="nav-label">Perfil</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="conta.html" class="nav-link">
+                        <span class="nav-icon material-symbols-rounded">
+                            logout
+                        </span>
+                        <span class="nav-label">Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+    
+    <main class="main-content">
+        <div id="content-dashboard" class="content active">
+            <h1 style="font-size: 30px;">Produtos</h1>
+            <p>Gerencie sua Mercadoria aqui.</p>
+        </div>
+        <br><br>
+        <div class="container">
+           <div class="admin-product-form-container">
+              <form>
+                 <h3>Adicionar Produto</h3>
+                 <input type="text" placeholder="Digite o nome do produto" name="product_name" class="box">
+                 <input type="number" placeholder="Insira o valor do produto" name="product_price" class="box">
+                 <input type="number" placeholder="Coloque a quantidade" name="product_qtd" class="box">
+                 <input type="text" placeholder="Coloque a data de criação" name="product_date" class="box">
+                 <input type="file" accept="image/png, image/jpeg, image/jpg" name="product_image" class="box">
+                 <input type="submit" class="btn" name="add_product" value="Adicionar Produto">
+              </form>
+           </div>
+    </main>
+
+    <footer>
+        <div class="cupons-list">
+            <div class="cupom-card">
+              <span class="emoji">🎟️</span>
+            <div>
+                <strong>CUPOM20</strong> — 20% de desconto em compras acima de R$100  
+                <p>Válido até <b>15/11/2025</b></p>
+            </div>
+            </div>
+
+            <div class="cupom-card">
+                <span class="emoji">🔥</span>
+            <div>
+                <strong>SUKI50</strong> — Frete grátis em pedidos acima de R$50  
+                <p>Válido até <b>30/11/2025</b></p>
+            </div>
+            </div>
+
+            <div class="cupom-card">
+                <span class="emoji">⭐</span>
+            <div>
+                <strong>CLIENTEVIP</strong> — 10% OFF exclusivo para clientes cadastrados  
+                <p><b>Sem validade</b></p>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <script src="../js/script.js"></script>
+    <script src="../js/produto.js"></script>
+</body>

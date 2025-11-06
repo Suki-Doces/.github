@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel</title>
+    <!--Linking Google Fonts for icon-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0"/>
+    <link rel="stylesheet" href="../css/sidebar.css">
+    <link rel="stylesheet" href="../css/pedidos.css">
+    <link rel="stylesheet" href="../css/transaction.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <!--Side bar Header-->
+        <header class="sidebar-header">
+            <a href="#" class="header-logo">
+                <img src="../assets/icon/Logo Suki.svg" alt="Logo Suki">
+            </a>
+            <button class="toggler sidebar-toggler">
+                <span class="material-symbols-rounded">
+                    chevron_left
+                </span>
+            </button>
+            <button class="toggler menu-toggler">
+                <span class="material-symbols-rounded">
+                    menu
+                </span>
+            </button>
+        </header>
+
+        <nav class="sidebar-nav">
+            <!--Primary Top Nav-->
+            <ul class="nav-list primary-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">
+                        <span class="nav-icon material-symbols-rounded">
+                            dashboard
+                        </span>
+                        <span class="nav-label">Painel</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="pedidos.html" class="nav-link">
+                        <span class="nav-icon material-symbols-rounded">
+                            calendar_today
+                        </span>
+                        <span class="nav-label">Pedidos</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="./notificacoes.html" class="nav-link">
+                        <span class="nav-icon material-symbols-rounded">
+                            notifications
+                        </span>
+                        <span class="nav-label">Notificações</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="./clientes.html" class="nav-link">
+                        <span class="nav-icon material-symbols-rounded">
+                            group
+                        </span>
+                        <span class="nav-label">Clientes</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="produtos.html" class="nav-link">
+                        <span class="nav-icon material-symbols-rounded">
+                            analytics
+                        </span>
+                        <span class="nav-label">Produtos</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="estoque.html" class="nav-link">
+                        <span class="nav-icon material-symbols-rounded">
+                            star
+                        </span>
+                        <span class="nav-label">Estoque</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="configuracoes.html" class="nav-link">
+                        <span class="nav-icon material-symbols-rounded">
+                            settings
+                        </span>
+                        <span class="nav-label">Configurações</span>
+                    </a>
+                </li>
+            </ul>
+            
+            <!--Secondary Bottom Nav-->
+            <ul class="nav-list secondary-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="nav-icon material-symbols-rounded">
+                            account_circle
+                        </span>
+                        <span class="nav-label">Perfil</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="conta.html" class="nav-link">
+                        <span class="nav-icon material-symbols-rounded">
+                            logout
+                        </span>
+                        <span class="nav-label">Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+    
+    <main class="main-content">
+
+        <div id="content-dashboard" class="content active">
+            <h1>Painel</h1>
+            <p>Bem-vindo ao seu Painel de Controle!</p>
+        </div>
+
+        <div class="painel-vendas">
+        <div class="dash-vendas padding-20-set">
+        <div>
+        <div class="revenue">
+          <b class="revenue-title">Vendas Totais</b>
+          <img class="dots-icons" src="../assets/img/icon/Dots - Icon.svg" alt="Icone de Pontos">
+        </div>
+        <div class="vendas-text">
+          <p>Vendas nos últimos 7 dias</p>
+        </div>
+      </div>
+        <div>
+        <div class="revenue-value">
+          <b class="revenue-text">RS2.000</b>
+          <div class="frame-wrapper">
+            <div class="increase-value">
+              <img class="porcentagem-de-incremento" src="../assets/img/icon/Increases Symbol - Icon.svg" alt="Icone de Aumento">
+            </div>
+          </div>
+          <b class="increase-text">+10.4%</b>
+        </div>
+        <div class="previous-days">
+          <span>Valores Semana Passada</span>
+          <b class="blue-value">(R$ 1640)</b>
+        </div>
+         </div>
+        </div>
+            <div class="dash-pedidos padding-20-set">
+            <div>
+            <div class="revenue">
+                <b class="revenue-title">Pedidos Totais</b>
+                <img class="dots-icons" src="../assets/img/icon/Dots - Icon.svg" alt="Icone de Pontos">
+            </div>
+            <div class="pedidos-text">
+                <p>Últimos 7 dias</p>
+            </div>
+            </div>
+            <div>
+            <div class="revenue-value">
+                <b class="revenue-text">1,440</b>
+            <div class="frame-wrapper">
+                <div class="increase-value">
+                    <img class="porcentagem-de-incremento" src="../assets/img/icon/Increases Symbol - Icon.svg" alt="Icone de Aumento">
+                </div>
+            </div>
+                <b class="increase-text">+17.4%</b>
+            </div>
+            <div class="previous-days">
+                <span>Valores Semana Passada</span>
+                <b class="blue-value">(R$ 1260)</b>
+            </div>
+            </div>
+
+            </div>
+  
+            <div class="dash-pendentes padding-20-set">
+            <div class="dash-p-title">
+            <div class="revenue">
+                <b class="revenue-title">Pendentes e Cancelados</b>
+                <img class="dots-icons" src="../assets/img/icon/Dots - Icon.svg" alt="Icone de Pontos">
+            </div>
+            <div class="vendas-text">
+                <p>Ultimos 7 dias</p>
+            </div>
+            </div>
+            <div class="dash-p-dados">
+            <div class="pend-canc-pai">
+                <b class="pendentes-text">Pendentes</b>
+                <b class="pen-value-text">509</b>
+            </div>
+                <img class="traco-icon" src="../assets/img/icon/Traco - Icon.svg" alt="Icone de Traço">
+            <div class="cancelados-parent">
+                <b class="cancelados">Cancelados</b>
+                <b class="cash">94</b>
+            </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Seção abaixo dos painéis de vendas: produtos em destaque (esquerda) e gerenciamento do estoque (direita) -->
+        <section class="below-vendas">
+            <div class="produtos-destaque-main">
+                <h3>Produtos em Destaque</h3>
+                <table class="content-table">
+                    <thead class="table-head">
+                        <tr>
+                            <th class="table-parent">Produto</th>
+                            <th class="table-parent">Total de Pedidos</th>
+                            <th class="table-parent">Status</th>
+                            <th class="table-parent">Valor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="active-row">
+                            <td style="display: flex; align-items: center;">
+                                <img class="kit-img" src="../assets/img/Kit Kat - img.jpg" alt="Kit Kat">
+                                <span class="kit-text" style="position:static; padding-left:10px;">Kit Kat</span>
+                            </td>
+                            <td style="padding-left: 50px;">74</td>
+                            <td>
+                                <img src="../assets/img/icon/green ball.svg" alt="Em Estoque" style="vertical-align:middle; width:20px; height: 8px;">
+                                <span style="margin-left:6px; color:#21c45d;">Em Estoque</span>
+                            </td>
+                            <td>R$ 3,00</td>
+                        </tr>
+                        <tr class="active-row">
+                            <td style="display: flex; align-items: center;">
+                                <img class="kit-img" src="../assets/img/Kinder Bueno - img.webp" alt="Kinder Bueno">
+                                <span class="kit-text" style="position:static; padding-left:10px;">Kinder Bueno</span>
+                            </td>
+                            <td style="padding-left: 50px;">56</td>
+                            <td>
+                                <img src="../assets/img/icon/red ball.svg" alt="Sem Estoque" style="vertical-align:middle; width:20px; height: 8px;">
+                                <span style="margin-left:6px; color:#ef4343;">Sem Estoque</span>
+                            </td>
+                            <td>R$ 4,50</td>
+                        </tr>
+                        <tr class="active-row">
+                            <td style="display: flex; align-items: center;">
+                                <img class="kit-img" src="../assets/img/Energy Monster.png" alt="Monster Energy Drink">
+                                <span class="kit-text" style="position:static; padding-left:10px;">Monster Energy Drink</span>
+                            </td>
+                            <td style="padding-left: 50px;">98</td>
+                            <td>
+                                <img src="../assets/img/icon/green ball.svg" alt="Em Estoque" style="vertical-align:middle; width:20px; height: 8px;">
+                                <span style="margin-left:6px; color:#21c45d;">Em Estoque</span>
+                            </td>
+                            <td>R$ 10,00</td>
+                        </tr>
+                        <tr class="active-row">
+                            <td style="display: flex; align-items: center;">
+                                <img class="kit-img" src="../assets/img/Torrada Bauducco - img.webp" alt="Torrada Tradicional">
+                                <span class="kit-text" style="position:static; padding-left:10px;">Torrada Tradicional</span>
+                            </td>
+                            <td style="padding-left: 50px;">33</td>
+                            <td>
+                                <img src="../assets/img/icon/green ball.svg" alt="Em Estoque" style="vertical-align:middle; width:20px; height: 8px;">
+                                <span style="margin-left:6px; color:#21c45d;">Em Estoque</span>
+                            </td>
+                            <td>R$ 5,50</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <aside class="gerenciamento-estoque">
+                <h3>Gerenciamento do Estoque</h3>
+                <div class="estoque-cards">
+                    <div class="estoque-item">
+                        <span>Current Stock</span>
+                        <b>2504</b>
+                    </div>
+                    <div class="estoque-item">
+                        <span>Products to Reorder</span>
+                        <b>50</b>
+                    </div>
+                    <div class="estoque-item">
+                        <span>Recent Returns</span>
+                        <b>10</b>
+                    </div>
+                </div>
+            </aside>
+        </section>
+    
+        <div class="transacoes-section">
+        <div class="table-transacoes">
+            <h1>Transações</h1>
+        </div>
+    
+        <div class="table-trans-body">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="th-trans">N°</th>
+                        <th class="th-trans">ID Cliente</th>
+                        <th class="th-trans">Data</th>
+                        <th class="th-trans">Status</th>
+                        <th class="th-trans">Valor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="td-trans">1</td>
+                        <td class="td-trans">#6545</td>
+                        <td class="td-trans">01 Outubro | 19:20</td>
+                        <td class="td-trans">
+                        <img src="../assets/img/icon/green ball.svg" alt="">
+                            Pago
+                        </td>
+                        <td class="td-trans">R$ 64</td>
+                    </tr>
+                    <tr>
+                        <td class="td-trans">2</td>
+                        <td class="td-trans">#5412</td>
+                        <td class="td-trans">02 Outubro | 11:45</td>
+                        <td class="td-trans">
+                        <img src="../assets/img/icon/Yellow - Ball.svg " alt="">
+                            Pendente
+                        </td>
+                        <td class="td-trans">R$ 32</td>
+                    </tr>
+                    <tr>
+                        <td class="td-trans">3</td>
+                        <td class="td-trans">#6622</td>
+                        <td class="td-trans">02 Outubro | 13:45</td>
+                        <td class="td-trans">
+                        <img src="../assets/img/icon/green ball.svg" alt="Bola Verde">
+                        Pago
+                        </td>
+                        <td class="td-trans">R$ 16</td>
+                    </tr>
+                    <tr>
+                        <td class="td-trans">4</td>
+                        <td class="td-trans">#6796</td>
+                        <td class="td-trans">02 Outubro | 17:22</td>
+                        <td class="td-trans">
+                        <img src="../assets/img/icon/green ball.svg" alt="">
+                        Pago
+                        </td>
+                        <td class="td-trans">R$ 25</td>
+                    </tr>
+                    <tr>
+                        <td class="td-trans">5</td>
+                        <td class="td-trans">#6546</td>
+                        <td class="td-trans">03 Outubro | 9:45</td>
+                        <td class="td-trans">
+                        <img src="../assets/img/icon/Yellow - Ball.svg" alt="">
+                        Pendente
+                        </td>
+                        <td class="td-trans">R$ 65</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        </div>
+    </main>
+    <script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+footer {
+    padding: 20px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 286px; /* mesma largura da sidebar */
+    padding: 20px;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.1);
+}
+
+.cupons-container {
+  margin-top: 3rem;
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.07);
+}
+
+.cupons-container h3 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #222;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.cupons-list {
+  display: flex;;
+  gap: 1.2rem;
+  top: 10px
+}
+
+.cupom-card {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  background: #f8faff;
+  border: 1px solid #e2e8f0;
+  border-left: 5px solid #f8faff;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.cupom-card:hover {
+  background: #e7f9ef;
+  transform: translateY(-3px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.cupom-card .emoji {
+  font-size: 2rem;
+}
+
+.cupom-card p {
+  font-size: 1.3rem;
+  color: #555;
+  margin-top: 3px;
+}
+
