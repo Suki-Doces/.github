@@ -10,8 +10,6 @@ Nossa missão é proporcionar uma experiência agradável, organizada e eficient
 Por meio de um catálogo completo, carrinho de compras funcional e opções modernas de pagamento, buscamos fortalecer a marca e transformar o processo de compra em algo simples e prazeroso, garantindo satisfação em cada etapa.
 </p>
 
-<img width="100%" src="https://github.com/SamirPaulb/SamirPaulb/blob/main/assets/rainbow-superthin.webp"/>
-
 <h2> 🚻 Público-Alvo:  <br><br></h2>
 <p>
 A Loja Suki Doces atende consumidores que valorizam variedade, praticidade e rapidez.  
@@ -22,8 +20,6 @@ Nosso público-alvo inclui:
 
 O site foi pensado para facilitar a navegação dessas pessoas, oferecendo um catálogo organizado, várias opções de compra e um atendimento acessível para diferentes necessidades.
 </p>
-
-<img width="100%" src="https://github.com/SamirPaulb/SamirPaulb/blob/main/assets/rainbow-superthin.webp"/>
 
 <h2> 🏪 Funcionalidades do Sistema: <br><br></h2>
 
@@ -37,8 +33,6 @@ O site foi pensado para facilitar a navegação dessas pessoas, oferecendo um ca
 • Relatórios de vendas e produtos mais pedidos. <br>
 • Sistema conectado ao backend em PHP + MySQL. <br>
 • Navegação simulada via protótipo no Figma. <br>
-
-<img width="100%" src="https://github.com/SamirPaulb/SamirPaulb/blob/main/assets/rainbow-superthin.webp"/>
 
 <h2> 🚀 REQUISITOS FUNCIONAIS <br><br></h2>
 
@@ -55,8 +49,6 @@ O site foi pensado para facilitar a navegação dessas pessoas, oferecendo um ca
 | Gerenciar produtos e estoque (admin). | |
 | Gerar relatórios básicos (admin). | |
 
-<img width="100%" src="https://github.com/SamirPaulb/SamirPaulb/blob/main/assets/rainbow-superthin.webp"/>
-
 <h2> 📋 Regras de Negócio <br><br></h2>
 
 • Compras acima de R$50 possuem frete grátis. <br>
@@ -64,8 +56,6 @@ O site foi pensado para facilitar a navegação dessas pessoas, oferecendo um ca
 • Cancelamento do pedido permitido até 2 horas após a compra. <br>
 • Cupons e promoções podem ser aplicados no checkout. <br>
 • Política de devolução segue o Código de Defesa do Consumidor. <br>
-
-<img width="100%" src="https://github.com/SamirPaulb/SamirPaulb/blob/main/assets/rainbow-superthin.webp"/>
 
 <h2> 🗂️ Estrutura do Banco de Dados <br><br></h2>
 
