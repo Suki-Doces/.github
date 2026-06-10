@@ -1,86 +1,242 @@
 # Suki Doces - Organization
 
-<h1> 🍬 Informações do nosso projeto – Loja Suki Doces <br> </h1>
+## Sobre o Projeto
 
-<h2> 🖥️ Objetivo do nosso sistema:  <br><br></h2>
-<p>
-O projeto “Loja Suki Doces” foi criado com o objetivo de oferecer uma plataforma prática, intuitiva e encantadora para quem deseja comprar doces de forma rápida e segura.  
-Nossa missão é proporcionar uma experiência agradável, organizada e eficiente tanto para jovens que buscam praticidade quanto para pais que precisam planejar festas e eventos.
+A **Suki Doces** é uma plataforma de e-commerce desenvolvida para oferecer uma experiência moderna, prática e segura na compra de doces e produtos para eventos. O sistema foi projetado para atender tanto consumidores que desejam realizar compras rápidas quanto clientes que precisam organizar festas e comemorações com eficiência.
 
-Por meio de um catálogo completo, carrinho de compras funcional e opções modernas de pagamento, buscamos fortalecer a marca e transformar o processo de compra em algo simples e prazeroso, garantindo satisfação em cada etapa.
-</p>
+A proposta é unir uma interface intuitiva, catálogo organizado, métodos de pagamento modernos e um painel administrativo completo para gerenciamento do negócio.
 
-<h2> 🚻 Público-Alvo:  <br><br></h2>
-<p>
-A Loja Suki Doces atende consumidores que valorizam variedade, praticidade e rapidez.  
-Nosso público-alvo inclui:
+---
 
-<b>• Jovens e universitários (18 a 25 anos):</b> procuram doces para consumo, pequenos eventos e presentes, priorizando agilidade e preço justo.  
-<b>• Pais e responsáveis (35 a 45 anos):</b> buscam doces para festas infantis, datas comemorativas e compras em maior quantidade.
+## Objetivo do Sistema
 
-O site foi pensado para facilitar a navegação dessas pessoas, oferecendo um catálogo organizado, várias opções de compra e um atendimento acessível para diferentes necessidades.
-</p>
+O principal objetivo da plataforma é proporcionar uma experiência de compra simples, agradável e eficiente, permitindo que os clientes encontrem produtos facilmente, realizem pedidos com segurança e acompanhem todo o processo até a entrega.
 
-<h2> 🏪 Funcionalidades do Sistema: <br><br></h2>
+Além disso, o sistema oferece ferramentas administrativas para controle de estoque, gerenciamento de produtos, acompanhamento de pedidos e análise de vendas.
 
-• Catálogo completo com imagens, descrição, preço e disponibilidade. <br>
-• Busca e filtros por categorias, tipos de doces ou faixa de preço. <br>
-• Carrinho de compras com cálculo automático do total. <br>
-• Finalização de pedido com pagamento via Pix, cartão ou boleto. <br>
-• Envio de confirmação por e-mail ou WhatsApp. <br>
-• Acompanhamento do status do pedido. <br>
-• Área administrativa para gerenciar produtos, estoque e pedidos. <br>
-• Relatórios de vendas e produtos mais pedidos. <br>
-• Sistema conectado ao backend em PHP + MySQL. <br>
-• Navegação simulada via protótipo no Figma. <br>
+---
 
-<h2> 🚀 REQUISITOS FUNCIONAIS <br><br></h2>
+## Público-Alvo
 
-| Funcionais ✔️  | Não Funcionais ❌ |
-| ------------- | ----------------- |
-| Cadastro e login de clientes. | Sistema responsivo (desktop, tablet e celular). |
-| Exibir catálogo de doces com imagens e preço. | Carregamento rápido (até 3 segundos). |
-| Busca e filtro por categoria. | Senhas criptografadas e proteção de dados. |
-| Adicionar e remover produtos do carrinho. | Compatibilidade com Chrome, Firefox, Edge e Safari. |
-| Calcular total da compra. | Interface simples e intuitiva. |
-| Finalizar pedido com pagamento digital. | |
-| Enviar confirmação por e-mail/WhatsApp. | |
-| Acompanhar status do pedido. | |
-| Gerenciar produtos e estoque (admin). | |
-| Gerar relatórios básicos (admin). | |
+### Jovens e Universitários (18 a 25 anos)
 
-<h2> 📋 Regras de Negócio <br><br></h2>
+* Compras para consumo próprio;
+* Presentes e pequenas comemorações;
+* Busca por praticidade, rapidez e preços acessíveis.
 
-• Compras acima de R$50 possuem frete grátis. <br>
-• Produtos sem estoque não podem ser adicionados ao carrinho. <br>
-• Cancelamento do pedido permitido até 2 horas após a compra. <br>
-• Cupons e promoções podem ser aplicados no checkout. <br>
-• Política de devolução segue o Código de Defesa do Consumidor. <br>
+### Pais e Responsáveis (35 a 45 anos)
 
-<h2> 🗂️ Estrutura do Banco de Dados <br><br></h2>
+* Organização de festas e eventos;
+* Compras em maior volume;
+* Necessidade de variedade, confiança e facilidade de pagamento.
 
-<p>
-O banco de dados foi projetado para integrar todas as funcionalidades do sistema de forma segura e eficiente, garantindo que operações como cadastro de clientes, controle de estoque e pedidos ocorram sem erros.
-</p>
+---
 
-<h3> 🔹 Tabelas Principais </h3>
+## Principais Funcionalidades
 
-1. <b>administradores</b> – Dados de acesso e identificação de administradores. <br>
-2. <b>logs_admin</b> – Registro de ações administrativas (exclusão, alteração, etc.). <br>
-3. <b>clientes</b> – Armazena dados pessoais e login dos clientes. <br>
-4. <b>enderecos</b> – Múltiplos endereços vinculados a cada cliente. <br>
-5. <b>categorias</b> – Agrupamento dos produtos (bolos, brigadeiros, combos…). <br>
-6. <b>produtos</b> – Catálogo da loja (nome, descrição, preço, estoque, imagem). <br>
-7. <b>cupons</b> – Gerenciamento de códigos promocionais. <br>
-8. <b>pedidos</b> – Informações completas da compra. <br>
-9. <b>itens_pedido</b> – Quais produtos estão em cada pedido e suas quantidades. <br>
+### Área do Cliente
 
-<h3> 🔗 Relacionamentos </h3>
+* Cadastro e autenticação de usuários;
+* Catálogo completo de produtos;
+* Busca e filtros por categorias;
+* Carrinho de compras dinâmico;
+* Finalização de pedidos;
+* Pagamento via Pix, cartão e boleto;
+* Acompanhamento do status dos pedidos;
+* Histórico de compras.
 
-• <b>clientes → enderecos</b> (1:N) com exclusão em cascata. <br>
-• <b>categorias → produtos</b> (organização do catálogo). <br>
-• <b>clientes → pedidos</b> (histórico individual). <br>
-• <b>pedidos → itens_pedido → produtos</b> (estrutura central da compra). <br>
-• <b>pedidos → cupons</b> (gerenciamento de descontos). <br>
-• <b>administradores → logs_admin</b> (rastreabilidade total). <br>
+### Área Administrativa
+
+* Gerenciamento de produtos;
+* Controle de estoque;
+* Cadastro e edição de categorias;
+* Gestão de pedidos;
+* Controle de clientes;
+* Relatórios de vendas;
+* Dashboard administrativo;
+* Sistema de notificações.
+
+---
+
+## Requisitos do Sistema
+
+### Requisitos Funcionais
+
+| Código | Descrição                             |
+| ------ | ------------------------------------- |
+| RF01   | Cadastro de clientes                  |
+| RF02   | Login e autenticação                  |
+| RF03   | Exibição do catálogo de produtos      |
+| RF04   | Busca e filtros por categoria         |
+| RF05   | Adicionar e remover itens do carrinho |
+| RF06   | Cálculo automático do valor total     |
+| RF07   | Finalização de pedidos                |
+| RF08   | Processamento de pagamentos           |
+| RF09   | Acompanhamento de pedidos             |
+| RF10   | Gerenciamento de produtos             |
+| RF11   | Controle de estoque                   |
+| RF12   | Emissão de relatórios administrativos |
+
+### Requisitos Não Funcionais
+
+| Código | Descrição                                          |
+| ------ | -------------------------------------------------- |
+| RNF01  | Interface responsiva                               |
+| RNF02  | Tempo de carregamento inferior a 3 segundos        |
+| RNF03  | Criptografia de senhas                             |
+| RNF04  | Proteção de dados dos usuários                     |
+| RNF05  | Compatibilidade com Chrome, Firefox, Edge e Safari |
+| RNF06  | Interface intuitiva e acessível                    |
+| RNF07  | Disponibilidade contínua da aplicação              |
+
+---
+
+## Regras de Negócio
+
+### RN01 - Frete Grátis
+
+Pedidos acima de **R$ 50,00** recebem frete gratuito.
+
+### RN02 - Controle de Estoque
+
+Produtos sem estoque disponível não podem ser adicionados ao carrinho.
+
+### RN03 - Cancelamento de Pedidos
+
+O cancelamento pode ser realizado em até **2 horas após a confirmação da compra**.
+
+### RN04 - Cupons Promocionais
+
+Cupons e promoções podem ser aplicados durante o checkout.
+
+### RN05 - Política de Devolução
+
+As devoluções seguem as diretrizes do Código de Defesa do Consumidor.
+
+---
+
+## Estrutura do Banco de Dados
+
+O banco de dados foi modelado para garantir integridade, desempenho e escalabilidade, permitindo que todas as operações da plataforma sejam realizadas de forma segura e eficiente.
+
+### Tabelas Principais
+
+| Tabela          | Descrição                           |
+| --------------- | ----------------------------------- |
+| administradores | Dados de acesso dos administradores |
+| logs_admin      | Registro de ações administrativas   |
+| clientes        | Informações dos clientes            |
+| enderecos       | Endereços vinculados aos clientes   |
+| categorias      | Categorias dos produtos             |
+| produtos        | Catálogo de produtos                |
+| cupons          | Controle de cupons promocionais     |
+| pedidos         | Informações dos pedidos             |
+| itens_pedido    | Produtos associados aos pedidos     |
+
+---
+
+## Relacionamentos
+
+### Clientes → Endereços
+
+* Um cliente pode possuir vários endereços.
+* Exclusão em cascata configurada.
+
+### Categorias → Produtos
+
+* Uma categoria pode conter vários produtos.
+
+### Clientes → Pedidos
+
+* Um cliente pode realizar diversos pedidos.
+* Mantém o histórico completo de compras.
+
+### Pedidos → Itens do Pedido
+
+* Um pedido possui um ou mais itens.
+* Cada item está vinculado a um produto.
+
+### Pedidos → Cupons
+
+* Permite aplicação de descontos promocionais.
+
+### Administradores → Logs
+
+* Todas as ações administrativas ficam registradas para auditoria e rastreabilidade.
+
+---
+
+## Tecnologias Utilizadas
+
+### Front-end
+
+* Angular
+* TypeScript
+* HTML5
+* CSS3
+
+### Back-end
+
+* Node.js
+* Express.js
+* Prisma ORM
+
+### Banco de Dados
+
+* MySQL
+
+### Infraestrutura
+
+* Vercel
+* Render
+* Cloudinary
+
+---
+
+## Arquitetura da Aplicação
+
+O projeto segue uma arquitetura em camadas, promovendo organização, manutenção e escalabilidade.
+
+### Estrutura Principal
+
+```text
+src/
+├── controllers/
+├── services/
+├── routes/
+├── middlewares/
+├── prisma/
+├── lib/
+└── server.js
+```
+
+### Camadas
+
+* **Controllers:** recebem e tratam as requisições.
+* **Services:** concentram as regras de negócio.
+* **Routes:** definem os endpoints da API.
+* **Middlewares:** autenticação, validações e tratamento de erros.
+* **Prisma ORM:** comunicação com o banco de dados.
+* **MySQL:** armazenamento das informações.
+
+---
+
+## Objetivo Acadêmico
+
+O projeto foi desenvolvido como uma aplicação completa de e-commerce, aplicando conceitos de:
+
+* Desenvolvimento Web Full Stack;
+* APIs REST;
+* Banco de Dados Relacional;
+* Arquitetura em Camadas;
+* Autenticação e Autorização;
+* Integração com serviços externos;
+* Boas práticas de desenvolvimento de software.
+
+---
+
+## Equipe
+
+Projeto desenvolvido para a organização e gestão da **Suki Doces**, com foco em proporcionar uma experiência moderna para clientes e administradores.
+
 
